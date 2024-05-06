@@ -2,24 +2,20 @@
 
 ## Exercise 1: Node.js Installation
 
-``` sh
-node --v
-```
-
-You should see the Node.js version number displayed:
-
-```
+``` bash
+$ node -v
 v20.12.0
 ```
 
 ## Exercise 2: MongoDB installation
 
-<https://www.mongodb.com/try/download/community>
+``` sh
+wget -qO - https://www.mongodb.org/static/pgp/server-3.0.asc | sudo apt-key add -
+echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
 
-download the appropriate MongoDB for your operating system.
-
-Run the installer and follow the on-screen instructions to complete the
-installation.
+```
 
 ## Exercise 3: Mongosh
 
