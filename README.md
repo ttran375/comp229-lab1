@@ -1,23 +1,6 @@
 # Lab Session 1 - Setting up Development Environment
 
-This document provides the necessary instructions for completing the
-Week 1 lab session exercises.
-
 ## Exercise 1: Node.js Installation
-
-[**https://nodejs.org**](https://nodejs.org/)
-
-Go to <https://nodejs.org/en/download/current/> and download the current
-version of Node.js.
-
-If your system is Windows 10 64 bit, download Windows Installer, 64 bit
-version.
-
-Install Node.js using Windows Installer. Mac users can use macOS
-installer
-
-After installation, in a console window, check Node.js version using the
-following command:
 
 ``` sh
 node --v
