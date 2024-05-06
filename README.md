@@ -2,7 +2,7 @@
 
 ## Exercise 1: Node.js Installation
 
-``` bash
+``` sh
 $ node -v
 v20.12.0
 ```
@@ -10,25 +10,6 @@ v20.12.0
 ## Exercise 2: MongoDB installation
 
 ``` sh
-wget -qO - https://www.mongodb.org/static/pgp/server-3.0.asc | sudo apt-key add -
-echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
-sudo apt-get update
-sudo apt-get install -y mongodb-org
-
-```
-
-## Exercise 3: Mongosh
-
-<https://www.mongodb.com/try/download/shell>
-
-download the appropriate Mongosh for your operating system.
-
-Run the installer and follow the on-screen instructions to complete the
-installation.
-
-Test your MongoDB: Follow the step by step instructions on the slide.
-
-```
 $ mongod
 {"t":{"$date":"2024-05-06T19:56:08.890+00:00"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"-","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":17},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":17},"outgoing":{"minWireVersion":6,"maxWireVersion":17},"isInternalClient":true}}}
 {"t":{"$date":"2024-05-06T19:56:08.890+00:00"},"s":"I",  "c":"CONTROL",  "id":23285,   "ctx":"-","msg":"Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
@@ -61,6 +42,8 @@ $ mongod
 {"t":{"$date":"2024-05-06T19:56:08.896+00:00"},"s":"I",  "c":"CONTROL",  "id":23138,   "ctx":"initandlisten","msg":"Shutting down","attr":{"exitCode":48}}
 ```
 
+## Exercise 3: Mongosh
+
 ``` sh
 $ mongosh
 Current Mongosh Log ID: 663936380ec980a0182202d7
@@ -81,16 +64,6 @@ For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 test> 
 ```
 ## Exercise 4: VS Code installation
-
-Go to <https://code.visualstudio.com/download> and
-
-download the appropriate version of VS Code for your operating system.
-
-Run the installer and follow the on-screen instructions to complete the
-installation.
-
-Once installed, launch VS Code and familiarize yourself with the
-interface.
 
 ## Exercise 5: Developing ES6+ Modules with VS Code
 
